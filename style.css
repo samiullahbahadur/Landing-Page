@@ -1,12 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color:lightblue;
-  }
-  
-  header {
+    background-color: lightblue;
+}
+
+header {
     position: fixed;
-    top: 0;
+    top: 10;
     min-height: 75px;
     padding: 0px 20px;
     display: flex;
@@ -14,14 +14,14 @@ body {
     align-items: center;
     background-color: #eee;
     width: 100%;
-  }
-  
-  #header-img {
+}
+
+#header-img {
     height: 50px;
     width: 350px;
-  }
-  
-  #hero {
+}
+
+#hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,50 +29,50 @@ body {
     text-align: center;
     height: 200px;
     margin-top: 50px;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     flex-direction: column;
-  }
-  
-  .item {
+}
+
+.item {
     display: flex;
     flex-direction: column;
-  }
-  
-  #features,
-  #how-it-works,
-  #pricing {
+}
+
+#features,
+#how-it-works,
+#pricing {
     margin-top: 50px;
     text-align: center;
     padding: 0px 20px;
-  }
-  
-  nav > ul {
+}
+
+nav>ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
-  
-  li {
+}
+
+li {
     list-style: none;
-  }
-  
-  a {
+}
+
+a {
     color: #000;
     text-decoration: none;
-  }
-  
-  #pricing {
+}
+
+#pricing {
     margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-  
-  .payments {
+}
+
+.payments {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,22 +81,22 @@ body {
     margin: 10px;
     border: 1px solid #000;
     border-radius: 3px;
-  }
-  
-  .payments.level {
+}
+
+.payments.level {
     background-color: #ddd;
     color: black;
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
-  }
-  
-  .payments h2 {
+}
+
+.payments h2 {
     margin-top: 15px;
-  }
-  
-  .payments button {
+}
+
+.payments button {
     border: 0;
     margin: 15px 0;
     background-color: #f1c40f;
@@ -106,4 +106,4 @@ body {
     font-size: 1em;
     border-radius: 2px;
     cursor: pointer;
-  }
+}
